@@ -80,7 +80,7 @@ button {
 }
 
 .imgmacbook {
-  margin-bottom: 3.5cm;
+  width=100%;
 }
 
 .partners {
@@ -107,7 +107,6 @@ footer {
 }
 
 #contactlogo {
-
   max-width: 20px;
 }
 
