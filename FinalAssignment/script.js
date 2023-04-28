@@ -58,7 +58,7 @@ console.log(qtdItem1)
     
     console.log(subTotalItem1)
 
-subTotalItem1.innerText = new Intl.NumberFormat("en-US", {
+subTotalItem1.innerHTML = "<b>Subtotal &nbsp</b>" + new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "CAD"
   }).format(qtdItem1 * priceItem1);
