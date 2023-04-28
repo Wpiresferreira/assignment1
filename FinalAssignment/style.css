@@ -76,6 +76,7 @@ main {
 .container-home {
     background-color: white;
     width: 500px;
+    font-size:larger;
 }
 
 #firstimage {
