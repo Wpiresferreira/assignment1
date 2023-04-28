@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Estimate</title>
+
+</head>
+
+<header id="header">
+    <div href="index.html" id="logo">
+        <img src="images/png/logo-no-background.png" alt="logo" >
+    </div>
+    <nav id="nav">
+
+        <ul id="menu">
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="services.html">
+                    Our Services
+                </a>
+            </li>
+            <li>
+                <a href="onlineestimates.html">
+                    Get a Estimate
+                </a>
+            </li>
+            <li>
+                <a href="testimonials.html">
+                    Reviews
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Contacts
+                </a>
+            <li>
+                <a href="aboutus.html">
+                    About Us
+                </a>
+            </li>
+        </ul>
+            <button id="btn-menu" onclick="toggleMenu()">
+                ☰
+            </button>
+
+    </nav>
+</header>
+
+<main>
+<div>
+    ONLINE ESTIMATE
+
+Have a landscaping idea but not sure where to start?  You can get a decent idea of cost from our calculator, 
+just plug in your needs and generate a base price / estimate.
+
+RESIDENTIAL SERVICES PRICES
+
+Based off an average yard size of 10000 Square Feet, choose what you need done weekly, monthly or just one time!
+
+</div>
+    <label for="services" onchange="updateEstimate()">Choose a service:</label>
+
+    <select id="services">
+      <option value="maintenance">Landscape Maintenance (pruning / weed removal)</option>
+      <option value="treatment">Treatment & fertilization</option>
+      <option value="cleanUp">Lawn Thatching / clean up</option>
+      <option value="cutting">Grass cutting</option>
+      <option value="mulching">Mulching</option>
+      <option value="seeding">Seeding</option>
+      <option value="aeration">Aeration</option>
+      <option value="inspection">Tree-health inspections</option>
+      <option value="trimming">Tree trimming</option>
+      <option value="pruning">Shrub pruning</option>
+      <option value="management">Weed management</option>
+      <option value="removal">Tree removal</option>
+    </select>
+      
+    <div id="qtd">
+        <input type="text">
+    </div>
+    <div id="price"></div>
+
+    <div class="table-container">
+        
+    </div>
+</main>
