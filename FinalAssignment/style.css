@@ -312,4 +312,16 @@ iframe {
         display: block;
     }
 
+    #total{
+        text-align: center;
+    }
+
+    .container-contact {
+        display:block;
+        overflow: hidden;
+    }
+
+    iframe{
+        width: calc(100% - 35px);
+    }
 }
