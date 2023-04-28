@@ -62,6 +62,10 @@ main {
 
 }
 
+b {
+    display: none;
+}
+
 #menu a {
     display: block;
     padding: 0.5rem;
@@ -71,12 +75,12 @@ main {
 #btn-menu {
     display: none;
     border: none;
+    font-size: larger;
 }
 
 .container-home {
     background-color: white;
     width: 500px;
-    font-size:larger;
 }
 
 #firstimage {
@@ -221,12 +225,17 @@ footer div {
     padding: 20px;
 }
 
-iframe{
+iframe {
     padding: 30px;
     border: 2px solid rgb(57, 131, 120);
 }
 
 @media (max-width: 600px) {
+
+    b {
+        display: inline-flex;
+    }
+
     header {
         padding-left: 0;
     }
@@ -264,9 +273,24 @@ iframe{
         border-bottom: 2px solid rgb(9, 106, 46);
     }
 
+    .gridHeader {
+        display: none;
+    }
 
     .gridContainer {
         display: block;
+    }
+
+    .gridLine {
+        border: 0;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    .line {
+        border-top: 2px solid rgb(57, 131, 120);
     }
 
     .container {
