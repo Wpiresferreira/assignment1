@@ -7,7 +7,7 @@ function toggleMenu(){
     if (button.innerText == "X") {
         button.innerText = "☰";
     } else {
-        button.value = "X";
+        button.innerText = "X";
     }
     
 }
